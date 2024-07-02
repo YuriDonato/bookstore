@@ -49,6 +49,34 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-extensions"
+version = "3.2.3"
+description = "Extensions for Django"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "django-extensions-3.2.3.tar.gz", hash = "sha256:44d27919d04e23b3f40231c4ab7af4e61ce832ef46d610cc650d53e68328410a"},
+    {file = "django_extensions-3.2.3-py3-none-any.whl", hash = "sha256:9600b7562f79a92cbf1fde6403c04fee314608fefbb595502e34383ae8203401"},
+]
+
+[package.dependencies]
+Django = ">=3.2"
+
+[[package]]
+name = "djangorestframework"
+version = "3.15.2"
+description = "Web APIs for Django, made easy."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "djangorestframework-3.15.2-py3-none-any.whl", hash = "sha256:2b8871b062ba1aefc2de01f773875441a961fefbf79f5eed1e32b2f096944b20"},
+    {file = "djangorestframework-3.15.2.tar.gz", hash = "sha256:36fe88cd2d6c6bec23dca9804bab2ba5517a8bb9d8f47ebc68981b56840107ad"},
+]
+
+[package.dependencies]
+django = ">=4.2"
+
+[[package]]
 name = "exceptiongroup"
 version = "1.2.1"
 description = "Backport of PEP 654 (exception groups)"
@@ -229,4 +257,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10"
-content-hash = "e351e75887697a6b25e0d9c5295cf26dc785fb112d11daec57238f9445e282bb"
+content-hash = "99b5a3c53731409a6597557840db1af2a3216e0fa4907f2e74105ae49b6c734b"
